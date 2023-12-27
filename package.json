@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "start": "nodemon ./src/app.ts"
+    "start": "nodemon ./src/app.ts",
+    "start-prod": "node ./build/app.js"
   },
   "dependencies": {
     "compression": "^1.7.4",
